@@ -1,23 +1,10 @@
 package main
-2
- 
- 3
- import (
- 4
+import (
      "fmt"
-     5
-         "math/rand"
-         6
-
+     "math/rand"
  )
- 7
-  
-  8
-  func main() {
-      9
-          fmt.Println("My favorite number is", rand.Intn(10))
-         10
 
-  }
-  11
-   
+func main() {
+          fmt.Println("My favorite number is", rand.Intn(10))
+
+}
